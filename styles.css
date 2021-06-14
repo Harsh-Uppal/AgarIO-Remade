@@ -1,0 +1,108 @@
+.stop_scrool{
+    overflow: hidden
+}
+
+.selector{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-top:5%;
+    width:92%;
+    height:35%;
+    color:lime;
+    margin-left: 5%;
+}
+
+.playerNameInput{
+    border:none;
+    height:30%;
+    width:80%;
+    font-size:200%;
+    margin-left:30%;
+}
+
+.playerNameLabel{
+    color:lime;
+    margin-left:30%;
+}
+
+.playerSkin{
+    display:flex;
+    width:30%;
+    height:80%;
+    justify-self: center;
+    margin-left:10%;
+    border-radius: 100%;
+}
+
+.playButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    margin-top:5%;
+    width:92%;
+    height:35%;
+    color:lime;
+    margin-left: 5%;
+}
+
+.rPlayButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    color:red;
+    width:250%;
+    margin-left:-100%;
+    border-radius: 10%;
+    background-color: aqua;
+    height:70%;
+    border:none;
+}
+
+.GameOverText{
+    display:flex;
+    font-size: 100px;
+    justify-content: center;
+    margin-top:10%;
+    color:red;
+}
+
+.highScore{
+    display:flex;
+    font-size: 60px;
+    justify-content: center;
+    margin-top:2%;
+    color:lime;
+}
+
+.menuBtn{
+    font-size: 40px;
+    margin-left:40%;
+    margin-top:2%;
+    background-color:cyan;
+    width:20%;
+    height:10%;
+    border:none;
+}
+
+.hideAllDots div ul li{
+    list-style-type: none;
+}
+
+.doubleSize{
+    font-size: 200%;
+}
+
+.creditsBtn{
+    width:150%;
+    height:70%;
+    border:none;
+    border-radius:10%;
+    background-color: red;
+    font-size:300%;
+    color:greenyellow;
+    margin-left: 20%;
+}

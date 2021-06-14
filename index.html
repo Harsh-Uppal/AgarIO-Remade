@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agar IO</title>
+
+  <link rel="stylesheet" href="styles.css" type="text/css" />
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+  <script src="database.js"></script>
+  <script src="sketch.js"></script>
+  <script src="player.js"></script>
+  <script src="databaseFuncs.js"></script>
+  <script src="p5.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
+</head>
+
+<body bgcolor="#383838" class="stop_scrool">
+  <script src="controller.js"></script>
+  <div class="hideAllDots">
+    <div class="playButton">
+      <ul>
+        <li>
+          <button class="rPlayButton" onclick="playGame()">Play</button>
+        </li>
+      </ul>
+      <ul>
+        <li class="doubleSize"><label class="playerNameLabel">Enter your name:</label></li>
+        <li><input id="playerName" class="playerNameInput" maxlength="20" type="text" /></li>
+      </ul>
+    </div>
+    <div class="selector">
+      <ul>
+        <!-- <li><img class="playerSkin" src="s1.png"></img></li> -->
+        <li><button class="creditsBtn" onclick="openCredits()">Credits</button></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
