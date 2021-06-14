@@ -1,0 +1,39 @@
+.MainSection{
+    border-radius: 5%;
+    background-color: green;
+    margin-top: 5%;
+    margin-left: 5%;
+    width:90%;
+}
+
+.Header{
+    font-size: 200%;
+    color: dodgerblue;
+}
+
+.InnerText{
+    color:cyan;
+    font-size: 150%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+
+.ImageBox{
+    border-radius: 5%;
+    margin-top:2%;
+    margin-bottom:2%;
+    border:solid;
+}
+
+.BackBtn{
+    width:20%;
+    height:17%;
+    border-radius: 5%;
+    background-color: gray;
+    color:greenyellow;
+    border:none;
+    font-size:200%;
+    margin-bottom: 2%;
+}

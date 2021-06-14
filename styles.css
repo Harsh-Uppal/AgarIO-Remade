@@ -96,13 +96,26 @@
     font-size: 200%;
 }
 
-.creditsBtn{
+.HTPBtn{
     width:150%;
+    height:70%;
+    border:none;
+    border-radius: 10%;
+    background-color: red;
+    font-size:300%;
+    color:greenyellow;
+    float:left;
+    margin-left:-100%;
+}
+
+.creditsBtn{
+    width:100%;
     height:70%;
     border:none;
     border-radius:10%;
     background-color: red;
     font-size:300%;
+    float:right;
     color:greenyellow;
-    margin-left: 20%;
+    margin-right:-80%;
 }

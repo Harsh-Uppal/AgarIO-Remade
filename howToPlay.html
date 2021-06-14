@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>How to play</title>
+    <link href="htpStyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body bgcolor="#9F9FFF">
+    <div class="MainSection">
+        <div class="InnerText"><br>
+            <div class="Header">How to start the game</div>
+            Enter your name in the Enter Name text box and click on play button<br>
+            <div class="Header">Goal of the game</div>
+            When you start the game you are small, you have to eat to grow bigger.
+            Eat other blobs whose size is small. The goal is to become the biggest.
+            <div class="Header">Controls</div>
+            Movement Controls: <br>
+            W   to move up<br>
+            A   to move left<br>
+            S   to move down<br>
+            D   to move right<br><br>
+            Esc to exit<br>
+            <div class="Header">World Border</div>
+            You have to stay in the world border or you will die. The world border is
+            drawn with red color. When you are out of the world border a warning icon
+            is shown on the top right corner of your screen.
+            <img class="ImageBox" src="WarningHTPImg.jpg"/><br>
+            <button class="BackBtn" onclick="goBack()">Back</button>
+        </div>
+    </div>
+    <script>
+        function goBack(){
+            window.location = "./index.html";
+        }
+    </script>
+</body>
+
+</html>
